@@ -1,11 +1,14 @@
-public class Canine implements Animal {
+public class Canine implements Mammal {
     @Override
-    public MammalDetails display() { 
+    public MammalDetails createAbout() { 
         return new AboutDog();
     }
-
     @Override
-    public Mammal createMammal() {
+    public Canine createMammal() {
         return new Dog();
+    }
+    @Override
+    public void print(){
+        
     }
 }

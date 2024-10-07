@@ -1,3 +1,3 @@
-interface Mammal {
-    public void display();
+interface Mammal extends Animal {
+   public void print();
 }

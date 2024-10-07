@@ -1,4 +1,4 @@
 interface Animal {
-    public MammalDetails display();
+    public MammalDetails createAbout();
     public Mammal createMammal(); 
 }

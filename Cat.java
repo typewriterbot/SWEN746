@@ -1,6 +1,6 @@
-public class Cat implements Mammal {
+public class Cat extends Feline {
     @Override
-    public void display() { // sound
+    public void print() { // sound
         System.out.println("Meow meow.");
         System.out.println("Cat here!");
         

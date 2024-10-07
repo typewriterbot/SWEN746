@@ -1,6 +1,6 @@
-public class Dog implements Mammal { 
+public class Dog extends Canine { 
     @Override
-    public void display() {
+    public void print() {
         System.out.println("Bark bark!");
         System.out.println("Woof woof~");
         System.out.println("Dog here!");

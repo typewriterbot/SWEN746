@@ -1,11 +1,12 @@
-public class Feline implements Animal {
+public class Feline implements Mammal {
     @Override
-    public MammalDetails display() { 
+    public MammalDetails createAbout() { 
         return new AboutCat();
     }
-
     @Override
     public Mammal createMammal() {
         return new Cat();
     }
+    @Override
+    public void print() { }
 }
