@@ -5,4 +5,4 @@ model driven development
 ![Abstract Factory Diagram](DP_AbstractFactory.png)
 
 ### Strategy 
-![Strategy Diagram](strategy.png)
+![Strategy Diagram](Strategy_diagram.png)
