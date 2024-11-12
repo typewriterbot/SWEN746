@@ -1,3 +1,3 @@
-This has the requirements diagram for the design pattern : Abstract Factory.
+This has the requirements diagram for the design pattern : Strategy.
 ### Requirements
 ![Requirements Diagram](SysML_REQ.png)
